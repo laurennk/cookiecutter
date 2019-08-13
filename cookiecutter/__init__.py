@@ -5,6 +5,7 @@ A short description of the project.
 
 # Add imports here
 from .cookiecutter import *
+from . import math
 
 # Handle versioneer
 from ._version import get_versions
