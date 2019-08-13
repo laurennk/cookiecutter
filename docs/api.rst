@@ -1,5 +1,5 @@
-API Documentation
-=================
+Canvas API Documentation
+========================
 
 .. autosummary::
    :toctree: autosummary

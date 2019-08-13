@@ -6,13 +6,22 @@
 Welcome to CookieCutter's documentation!
 =========================================================
 
+This is an introduction to my package...
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    getting_started
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Developer Guide:
+
    api
 
+   api_math
 
 
 Indices and tables

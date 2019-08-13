@@ -10,6 +10,20 @@ def main():
 
 
 def pi(n=100000):
+    """
+    Function to compute pi using a mote carlo method
+
+    Parameters
+    ----------
+    n : integer, Optional, default: 100000
+        Number of random points used
+
+    Returns
+    -------
+    pi : float
+        Computed value of pi
+    """
+
     if n <= 0:
         raise ValueError("Only positive integers are allowed")
 
@@ -28,6 +42,24 @@ def pi(n=100000):
 
 
 def euler(n=10):
+    """
+    Function to compute Euler's number, :math:`e` using a Taylor series
+
+    .. math::
+
+        e = 1 + \\sum_n^\\infty \\frac{1}{n!}
+
+    Parameters
+    ----------
+    n : int, Optional, default: 10
+        Order of expansion for the Taylor series
+
+    Returns
+    -------
+    e : float
+        Computed value of Euler's number
+    """
+
     if n < 0:
         raise ValueError("Only positive integers are allowed")
 
